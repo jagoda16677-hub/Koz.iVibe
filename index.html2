@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Moja Strona</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 1rem;
+      background-color: #333;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .category {
+      margin: 2rem 0;
+    }
+
+    .category a {
+      display: block;
+      margin: 0.5rem 0;
+      color: #ff6f61;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+    .category a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Moja Strona 🌟</h1>
+    <p>Blogi, Pomysły i Spotkania</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#blogi">Blogi</a></li>
+      <li><a href="#pomysly">Pomysły</a></li>
+      <li><a href="#spotkania">Spotkania</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="blogi" class="category">
+      <h2>Blogi</h2>
+      <a href="blogi/wpis1.html">Wpis 1</a>
+      <a href="blogi/wpis2.html">Wpis 2</a>
+    </section>
+
+    <section id="pomysly" class="category">
+      <h2>Pomysły</h2>
+      <a href="pomysly/pomysl1.html">Pomysł 1</a>
+      <a href="pomysly/pomysl2.html">Pomysł 2</a>
+    </section>
+
+    <section id="spotkania" class="category">
+      <h2>Spotkania</h2>
+      <a href="spotkania/spotkanie1.html">Spotkanie 1</a>
+      <a href="spotkania/spotkanie2.html">Spotkanie 2</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Moja Strona</p>
+  </footer>
+</body>
+</html>
